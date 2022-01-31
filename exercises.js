@@ -52,3 +52,25 @@ const user1Profile = {
     favoriteFoods: ['pizza', 'hotdogs', 'ice-cream'],
 
 }
+
+
+
+
+
+//* ==================== Classes ================================>
+
+// TODO: 1. Create a class called Human. 
+// TODO: 2. Inside the constructor function create a property called *planet* and give it a value. ex: this.planet = 'Jupiter';
+// TODO: 3. Now, outside the constructor, add a new method called *printPlanet* that console logs the planet of origin. ex: printPlanet(){...}
+
+// TODO: 4. Create a new class called Person, that inherits the properties from the Human class. *hint: use the keyword: extends*
+// TODO: 5. Add a new property called *name* in the constructor and give it a value. ex: this.name = 'Abe';
+// TODO: 6. Add a new method to the Person class called *printName* that logs the Person's name.
+// TODO: 7. Create a new instance of Person *hint: use the new keyword*, now make sure you can execute the Person and Human methods.
+
+
+//* ======================== Promises ======================================>
+
+// TODO: 1. Create index.html file, an app.js file and link them.
+// TODO: 2. Using fetch make a request to `'https://jsonplaceholder.typicode.com/posts'` and log the data to the console.
+// TODO: 3. Try using *async await*
