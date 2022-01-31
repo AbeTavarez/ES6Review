@@ -74,3 +74,4 @@ const user1Profile = {
 // TODO: 1. Create index.html file, an app.js file and link them.
 // TODO: 2. Using fetch make a request to `'https://jsonplaceholder.typicode.com/posts'` and log the data to the console.
 // TODO: 3. Try using *async await*
+// ToDo: 4. Practice using array methods like map to loop over the array.
