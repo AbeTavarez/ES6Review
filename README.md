@@ -63,3 +63,25 @@ converts our ES6 code to ES5 code that is supported by all browsers. Even if we 
 
 - Arrow functions handle the `this` keyword differently. They use the `lexical this`, the `lexical this` acts as we would expect the `this` keyword to be.
 Arrow functions bind the value of `this` to the surrounding context.
+
+## Rest and Spread Operator
+
+- 
+
+
+
+## Exports and Import Modules
+
+- Allows us to export and import code from another file.
+
+- To export all together you can use *default export*: `export default User`;
+    - To import you will use `import Person from './Person.js';` 
+        *you can use any name you want it doesn't have to be Person*
+
+- To export separate functions you can use *named exports*: `export const getUser = () => {...};`
+    To import you will use `import { getUser } from './User.js';`
+
+- You can also re-name them by using `import BrowserRouter as Router from 'react-router'`; 
+    *this is a better way to re-name your modules when importing*
+
+- If you want to import all *named exports* at once: `import * as myUtility from './utility.js';` 
