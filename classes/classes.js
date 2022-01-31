@@ -19,6 +19,6 @@ class Person extends Human {
     }
 }
 
-const person = new Person();
+const person = new Person('tav');
 person.printName();
 person.printPlanet();
